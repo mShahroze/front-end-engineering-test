@@ -3,7 +3,7 @@ import { render, screen } from '@testing-library/react';
 import { QueryClient, QueryClientProvider } from 'react-query';
 import 'text-encoding';
 import { setupServer } from 'msw/node';
-import { handlers } from '../../../mocks/handlers'; // Adjust the import path accordingly
+import { handlers } from '../../../mocks/handlers';
 import UserList from '../UserList';
 import { http } from 'msw';
 

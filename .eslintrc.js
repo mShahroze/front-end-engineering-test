@@ -1,4 +1,3 @@
-// .eslintrc.js
 module.exports = {
   parser: '@typescript-eslint/parser',
   extends: [
@@ -7,9 +6,7 @@ module.exports = {
     'prettier',
   ],
   plugins: ['react', '@typescript-eslint'],
-  rules: {
-    // Your custom rules here
-  },
+  rules: {},
   settings: {
     react: {
       version: 'detect',
